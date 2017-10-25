@@ -1,7 +1,7 @@
 import request from 'superagent'
 
-const CALENDAR_ID = 'tb8ckdrm61bdsj6jfm7khob4u5@group.calendar.google.com'
-const API_KEY = 'AIzaSyAOuDzSlG24RPBn3OKVAyjW3OK_EJhCUbp'
+const CALENDAR_ID = 'dr0636gslagk6nj1savab81vgs@group.calendar.google.com'
+const API_KEY = 'AIzaSyAKedQtk-BL4hzuIbhWqt4maVFdJRRVO5s'
 let url = `https://www.googleapis.com/calendar/v3/calendars/dr0636gslagk6nj1savab81vgs@group.calendar.google.com/events?key=AIzaSyAKedQtk-BL4hzuIbhWqt4maVFdJRRVO5s`
 
 export function getEvents (callback) {
